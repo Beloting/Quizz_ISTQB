@@ -1,0 +1,532 @@
+"Critère d’acceptation : le critère de sortie
+que doit satisfaire un composant ou un système de façon à être accepté par un utilisateur, client ou une autre entité autorisée."
+"Test d’acceptation : test formel en rapport avec les besoins utilisateur, exigences et processus métier, réalisé pour déterminer si un système satisfait ou non aux critères d’acceptation et permettre aux utilisateurs, clients ou autres entités autorisées de déterminer l’acceptation ou non du système.
+Voir aussi : Test d’acceptation utilisateur"
+Accessibilité : La mesure de la façon dont un composant ou un système peut être utilisé par des personnes couvrant le plus grand nombre de caractéristiques et de capacités pour atteindre un but précis dans un contexte d'utilisation précis.
+Test d'accessibilité : test qui détermine la facilité avec laquelle les utilisateurs avec handicaps peuvent utiliser un composant ou un système.
+"Résultat effectif : comportement produit /
+observé quand un composant ou un système est testé.
+Synonyme : Sortie effective"
+"Revue ad-hoc : technique de revue
+réalisée par des examinateurs indépendants de manière informelle, sans processus structuré."
+Tests  Alpha: test opérationnel réel ou simulé conduit dans l’environnement de test du développement par des rôles en dehors de ceux de l’organisation en charge du développement.
+"Anomalie: toute condition qui dévie des
+attentes basées sur les exigences de spécifications, documents de conception, documents utilisateurs, standards etc, ou des perceptions ou expériences de quelqu’un.  Les anomalies peuvent être trouvées pendant, mais pas uniquement, les revues, tests, analyses, compilations ou utilisation des produits logiciels ou de la documentation applicable
+Voir aussi : défauts, déviation, erreur, faute, défaillance, incident, problème"
+"Audit : examen indépendant d'un produit du travail, d'un processus ou d'un ensemble de processus qui est effectué par un tiers pour évaluer la conformité aux spécifications, aux normes, aux accords contractuels ou à d'autres critères."
+Disponibilité : degré par lequel un composant ou un système est opérationnel et accessible quand il doit être utilisé.
+"Comportement : la réponse d’un composant ou d’un système à un
+ensemble de valeurs d’entrées et de préconditions."
+"Tests Beta: Tests opérationnels simulés ou réels effectués sur un site externe, par des rôles à l'extérieur de l'organisation de développement.
+Synonyme : Tests terrain"
+"Technique de test boîte-noire : procédure documentée pour élaborer et sélectionner des cas de tests basés sur une analyse des spécifications, soit fonctionnelles soit non-fonctionnelles, d’un composant ou système sans faire référence à ses structures internes.
+Synonymes : Technique boîte noire, technique basée sur les spécifications, technique de test basée sur les spécifications"
+Valeur limite : Une valeur minimale ou maximale d'une partition d'équivalence ordonnée.
+"Analyse des valeurs limites : une technique de conception de tests boîte noire dans laquelle les cas de tests sont conçus sur la base des valeurs limites.
+Voir aussi : Valeur limite"
+"Burndown chart : Un graphique partagé qui représente l'effort réalisé par rapport au temps dans une itération. Il montre l'état et la tendance de la complétion des tâches de l'itération. L'axe des X représente généralement les jours du sprint, tandis que l'axe des Y représente l'effort restant (habituellement soit en
+heures d'ingénierie optimales, soit en points)."
+"Revue basée sur une checklist :
+Technique de revue guidée par une liste de questions ou d'attributs demandés."
+"Test basé sur une checklist : Une technique de conception de tests basée sur l'expérience selon laquelle le testeur expérimenté utilise une liste de haut niveau d'éléments à noter, à vérifier, ou à se rappeler, ou un ensemble de règles ou
+de critères en fonction desquels un produit doit être vérifié."
+"Couverture de code : une méthode
+d’analyse qui détermine quelles parties du logiciel ont été exécutées (couvertes) par une suite de tests et quelles parties ne l’ont pas été, p.ex. couverture des
+instructions, des décisions ou des conditions."
+"Logiciel commercial sur étagère :
+Produit logiciel qui est développé pour le marché de façon générale, c'est-à-dire pour un grand nombre de clients, et qui est livré à de nombreux clients dans un format identique.
+Synonyme : Logiciel sur étagère"
+"Compatibilité : le degré de capacité d'un composant ou d'un système à échanger
+des informations avec d'autres composants ou systèmes."
+"Complexité : le degré par lequel un composant ou système a une conception et/ou une structure interne qui est difficile à comprendre, maintenir et vérifier.
+Voir aussi Complexité Cyclomatique."
+"Conformité : capacité d’un produit logiciel à adhérer à des standards, conventions ou consignes dans des lois ou
+prescriptions similaires."
+"Composant : un élément logiciel minimal qui peut être testé isolément.
+Synonymes : module, unité"
+"Test d’intégration de composants : test effectué pour découvrir des défauts dans les interfaces et les interactions entre des composants intégrés.
+Synonyme : test de liens"
+"Spécification de composant : une description des fonctions de composant en termes de valeurs de sortie pour des valeurs d’entrée spécifiées sous des conditions spécifiées, ainsi que les
+comportements non-fonctionnels requis (p.ex; utilisation des ressources)"
+"Test de composant : le test de composants logiciels individuels.
+Synonymes : test de module, test unitaire"
+"Condition : expression logique qui peut être évaluée à Vrai ou Faux, p.ex. A>B. Voir aussi Condition de tests.
+Synonyme: condition de branchement"
+"Configuration : composition d’un composant ou système défini par le nombre, la nature et les interconnexions
+de ses parties constituantes."
+"Élément de configuration :  un ensemble de matériels, logiciels (ou les deux), qui fait partie de la gestion de configuration et est traité comme une entité unitaire dans le processus de gestion de configuration."
+"Gestion de configuration : une discipline
+appliquant une direction et surveillance technique et administrative pour identifier et documenter les caractéristiques fonctionnelles et physiques d’un élément de configuration, contrôler les modifications de ces caractéristiques, enregistrer et informer des modifications et états d’implémentation, et vérifier la conformité avec des exigences spécifiées."
+"Outil de gestion de configuration: un outil qui permet d’aider à identifier et contrôler la configuration des composants, leur état en regard des changements et versions, ainsi que la production de baselines constituées d’éléments de configuration."
+"Test de confirmation : tests dynamiques effectués après la correction de défauts dans le but de confirmer que les défaillances causées par ces défauts ne se produisent plus.
+Synonyme : retest"
+"Tests d'acceptation contractuelle :
+tests d'acceptation effectués pour vérifier si un système satisfait à ses exigences contractuelles."
+"Flot de contrôle : une représentation abstraite de toutes les séquences
+d’événements (chemins) dans l’exécution d’un composant ou système."
+"Coût de la qualité : le coût total imputé aux activités et problèmes liés à la qualité, souvent divisé en coûts de prévention, coûts d’estimation, coûts des défaillances internes et coûts des défaillances
+externes."
+"Couverture : le degré, exprimé en pourcentage, selon lequel un élément de couverture spécifié a été exécuté lors d’une suite de test.
+Synonyme : couverture de test"
+"Élément de couverture : un attribut ou une combinaison d'attributs qui est dérivé d'une ou de plusieurs conditions de test en utilisant une technique de test qui permet de mesurer la précision de
+l'exécution du test."
+"Outil de couverture : un outil qui fournit des mesures objectives de quels éléments structurels (p.ex. instructions, branches) ont été employés lors de l’exécution d’une suite de tests.
+Synonyme : outil de mesure de couverture"
+"Flot de données : une représentation
+abstraite de la séquence et des modifications possibles de l’état des objets de données, où l’état d’un objet est soit création, utilisation ou destruction"
+"Test piloté par les données : une technique de script qui sauvegarde les entrées de tests et les  résultats attendus dans une table ou un tableur, de façon à ce qu’un simple script de contrôle puisse exécuter tous les tests de la table. Les tests déterminés par les données sont souvent utilisés pour assister l’utilisation d'outils de tests automatisés tels ceux de capture/rejeu.
+Voir aussi : Tests dirigés par mots-clé"
+"Déboguer : le processus de trouver, analyser et éliminer les causes de défaillance dans les logiciels."
+Décision : Type d'instruction dans lequel le choix entre deux ou plusieurs résultats possibles contrôle l'ensemble des actions qui en résulte.
+Couverture des décisions : La couverture des résultats des décisions.
+Résultat de décision : Le résultat d'une décision qui détermine la prochaine instruction à exécuter.
+"Table de décision : Un tableau utilisé pour montrer des ensembles de conditions et les actions qui en résultent.
+Synonyme : table de décision cause-effet"
+"Test par tables de décisions : une technique de conception des tests boîte noire dans laquelle les cas de tests sont conçus pour exécuter les combinaisons d’entrées et/ou de stimuli (causes) présentes dans une table de décision.
+Voir aussi : Table de décision"
+"Test des décisions : Une technique de conception de tests boîte blanche selon laquelle les cas de tests sont conçus pour
+exécuter les résultats de décisions."
+"Défaut : Une imperfection ou une déficience d'un produit d’activités lorsqu'il ne répond pas à ses exigences ou à ses spécifications.
+Synonymes : bug, faute"
+"Densité de défauts : Le nombre de défauts par unité de mesure d'un produit d’activités.
+Synonyme : densité de fautes"
+"Gestion des défauts : Processus qui consiste à identifier et à enregistrer les défauts, à les classer, à les examiner, à prendre des mesures pour les résoudre et à les clôturer lorsqu'ils sont résolus.
+Voir aussi : Gestion des incidents"
+"Outil de gestion des défauts : Un outil qui facilite l'enregistrement et le suivi de l'état des défauts.
+Voir aussi : outil de gestion des incidents Synonymes : outil de suivi des bogues, outil de suivi des défauts."
+"Rapport de défaut : Documentation de la survenance, de la nature et de l'état d'un défaut.
+Voir aussi : Rapport d'incident Synonymes : rapport de bogue"
+"Pilote : un composant logiciel ou outil de tests qui remplace un composant qui contrôle et/ou appelle un composant ou
+système."
+"Analyse dynamique : le processus d’évaluation du comportement (p.ex. performance mémoire, utilisation CPU)
+d’un composant ou système pendant son exécution"
+"Outil d’analyse dynamique : un outil qui fournit une information sur l’état d’un code logiciel. Ces outils sont habituellement utilisés pour identifier des pointeurs non affectés, vérifier l’arithmétique des pointeurs et pour suivre l’allocation,
+l’utilisation et la libération de mémoire et détecter les fuites mémoire."
+"Test dynamique : test qui nécessite l’exécution du logiciel d’un composant ou système."
+"Efficacité : Mesure selon laquelle les objectifs corrects et complets sont atteints.
+Voir aussi : Efficience"
+"Efficience : Ressources utilisées par rapport à la mesure selon laquelle les utilisateurs atteignent des objectifs précis.
+Voir aussi : Efficacité"
+"Critères d'entrée : L'ensemble des conditions pour le démarrage formel d'une tâche définie.
+Synonyme : définition du prêt"
+"Partition d’équivalence : une portion d’un domaine d’entrée ou de sortie pour laquelle le comportement d’un composant ou système est supposé être le même, basé sur ces spécifications.
+Synonyme : classe d'équivalence"
+"Partitionnement d'équivalence : Technique de test boîte-noire dans laquelle les cas de test sont conçus pour exercer des partitions d'équivalence en utilisant un élément représentatif de chaque partition.
+Synonyme : tests de partitions"
+"Erreur : action humaine produisant un résultat incorrect.
+Synonyme : confusion"
+"Estimation d’erreur:  Technique de test qui consiste à dériver les tests sur la base de la connaissance des défaillances
+passées ou de la connaissance générale des modes de défaillance."
+"Instruction exécutable : une instruction qui, quand elle est compilée, est traduite en code objet, et sera exécutée de façon procédurale quand le programme s’exécute et peut effectuer une action sur
+des données ou le déroulement du programme."
+"Exercé : un élément d’un programme est dit être exercé par un cas de test quand les valeurs d’entrée causent l’exécution de cet élément, tel qu’une instruction,
+décision ou autre élément de structure."
+Tests exhaustifs : une approche des tests selon laquelle la suite de tests comprend toutes les combinaisons de valeurs d’entrée et de préconditions.
+"Critères de sortie : L'ensemble des
+conditions pour la complétion formelle d'une tâche définie.
+Synonymes : critères d'achèvement,
+critères d'achèvement des tests, définition du terminé"
+"Résultat attendu : Comportement
+observable prévu d'un composant ou d'un système s'exécutant dans des conditions spécifiées, sur la base de sa spécification ou d'une autre source.
+Synonymes : résultat escompté, résultat prévu"
+"Technique de test basée sur l'expérience : Procédure pour obtenir et/ou sélectionner des cas de test basée sur l'expérience du testeur, sa connaissance et son intuition.
+Synonyme : technique basée sur l'expérience"
+"Test basé sur l'expérience: test basé sur l'expérience, les connaissances et l'intuition du testeur."
+"Tests exploratoires : Une approche des tests par laquelle les testeurs conçoivent et exécutent dynamiquement des tests en fonction de leurs connaissances, de
+l'exploration de l'élément testé et des résultats des tests précédents."
+"Extreme programming (XP): Une méthodologie d'ingénierie de logiciels utilisée dans le développement logiciel Agile. Les pratiques de base sont la programmation par paire, la revue de code approfondie, les tests unitaires de tout le code, la simplicité et la clarté du code.
+Voir aussi : Développement de logiciels en Agile"
+"Facilitateur : Le leader et la principale personne responsable d'un processus d'inspection ou de revue.
+Voir aussi : Modérateur"
+Échec :  un test est considéré en échec si son résultat obtenu ne correspond pas au résultat attendu.
+Défaillance : Événement dans lequel un composant ou un système n'exécute pas une fonction requise dans les limites spécifiées.
+Taux de défaillance : Rapport entre le nombre de défaillances d'une catégorie donnée et une unité de mesure donnée.
+"Caractéristique : Un attribut d’un composant ou système, spécifié ou suggéré par la documentation d’exigences (p.ex. contraintes de fiabilité, disponibilité ou de conception).
+Synonyme : caractéristique logicielle"
+"Constat : Résultat d'une évaluation qui identifie une question, un problème ou une possibilité importante."
+Revue formelle : Une forme de revue qui suit un processus défini avec une documentation formelle des résultats.
+"Intégration fonctionnelle : une approche
+d’intégration qui combine les composants ou systèmes dans le but de permettre rapidement le fonctionnement d’une fonctionnalité de base.
+Voir aussi : Tests d’intégration"
+"Exigence fonctionnelle : une exigence
+qui spécifie une fonction qu’un composant ou système doit être capable de remplir."
+"Aptitude fonctionnelle : La mesure selon laquelle un composant ou un système fournit des fonctions qui répondent aux besoins exprimés et implicites lorsqu'il est utilisé dans des conditions spécifiées.
+Synonymes : fonctionnalité"
+"Test fonctionnel : Test réalisé pour évaluer la conformité d'un composant ou d'un système aux exigences fonctionnelles.
+Voir aussi : test boîte-noire"
+"IHM
+Acronyme de Interface Homme/Machine"
+"Cas de test de haut niveau : Un cas de test sans valeurs concrètes pour les données d'entrée et les résultats attendus.
+Voir aussi : Cas de test de bas niveau Synonymes : cas de test abstrait, cas de test logique"
+"IDEAL : Un modèle d'amélioration de l'organisation qui sert de feuille de route pour démarrer, planifier et mettre en œuvre des actions d'amélioration. Le modèle IDEAL est nommé d'après les cinq phases qu'il décrit: le démarrage (Initiating), le diagnostic (Diagnosing), la planification (Establishing), la mise en
+œuvre (Acting), et l'apprentissage (Learning)."
+"Analyse d'impact : L'identification de tous les produits d’activités touchés par un changement, y incluant une estimation  des ressources nécessaires pour accomplir le changement."
+"Rapport d'incident : Documentation de l'événement, de la nature et de l'état d'un incident.
+Synonymes : rapport de déviation, rapport
+d'incident de test logiciel, rapport d'incident de test"
+"Modèle de développement incrémental
+: Un modèle de cycle de vie du développement dans lequel la portée du projet est généralement déterminée au début du cycle de vie du projet, mais les estimations de temps et de coûts sont régulièrement modifiées à mesure que l'équipe du projet comprend mieux le produit. Le produit est développé au moyen d'une série de cycles répétés, chacun fournissant un incrément qui ajoute successivement à la fonctionnalité du produit.
+Voir aussi : modèle de développement itératif"
+Indépendance du test : Séparation des responsabilités qui favorise l’atteinte des objectifs de test.
+Revue informelle collective : Une revue informelle effectuée par trois personnes ou plus.
+Revue informelle : Un type de revue qui n’est pas basée sur une procédure formelle (documentée)
+Entrée : Données reçues par un composant ou un système à partir d'une source externe.
+"Inspection : Un type de revue formelle visant à identifier les problèmes d'un produit d’activités, qui fournit des mesures pour améliorer le processus de revue et le processus de développement de logiciels."
+"Guide d’installation : instructions fournies sur un média adéquat, qui guide l’installateur au cours du processus d’installation.  Ceci peut être un manuel, des procédures pas à pas, un démon d’installation, ou tout autre description similaire de processus."
+Intégration : le processus de combiner des composants ou systèmes en assemblages plus grands.
+"Tests d’intégration : tests effectués pour
+montrer des défauts dans les interfaces et interactions de composants ou systèmes intégrés.
+Voir aussi : Tests d’intégration de composants, tests d’intégration système"
+"Interopérabilité : La mesure selon
+laquelle deux ou plusieurs composants ou systèmes peuvent échanger de
+l'information et utiliser l'information qui a été échangée."
+"Test d’interopérabilité : Tester pour
+déterminer l'interopérabilité d'un produit logiciel.
+Voir aussi : Tests fonctionnels Synonymes : tests de compatibilité"
+"Modèle de développement itératif : un modèle de cycle de développement où le projet est séparé en un nombre
+d’itérations (souvent nombreuses). Une itération est une boucle complète de développement résultant en une livraison (interne ou externe) d’un produit exécutable, un sous-ensemble du produit final en développement, qui grandit
+d’itération en itération pour devenir le produit fini."
+"Tests dirigés par mots-clé : une technique de script utilisant des fichiers de
+données qui contiennent non seulement des données de test et des résultats"
+"attendus, mais aussi des mots clé liés à l’application à tester. Les mots clé sont interprétés par des scripts de support spécifiques, appelés par le script de contrôle du test.
+Voir aussi : Tests déterminés par les données.
+Synonyme : Tests dirigés par mots d’actions"
+"Modèle de cycle de vie : Une description des processus, des flux de travail et des activités utilisés dans le développement, la livraison, la maintenance et la mise hors service d'un système.
+Voir aussi : Cycle de vie des logiciels"
+"Tests de charge : Type de test de performance effectué pour évaluer le comportement d'un composant ou d'un système sous des charges variables, habituellement entre des conditions prévues d'utilisation faible, typique et de pointe.
+Voir aussi : Tests de performance, tests de stress"
+"Cas de test de bas niveau : un cas de test avec des valeurs concrètes en entrée et en sortie.
+Voir aussi : Cas de test de haut niveau Synonymes : Cas de test concret"
+"Maintenabilité : La mesure selon laquelle un composant ou un système peut être
+modifié par les personnes chargées de la maintenance."
+"Maintenance : Processus de modification d'un composant ou d'un système après la livraison pour corriger les défauts, améliorer les attributs de qualité ou s'adapter à un environnement modifié."
+Test de maintenance : test des modifications d’un système opérationnel ou de l’impact d’une modification d’environnement sur un système opérationnel.
+"Plan de test maître : Un plan de test qui est utilisé pour coordonner plusieurs niveaux de test ou types de test.
+Voir aussi : Plan de test"
+"Maturité : (1) La capacité d'une organisation quant à l'efficacité et à l'efficience de ses processus et de ses pratiques de travail. (2) La mesure selon laquelle un composant ou un système
+répond aux besoins de fiabilité en fonctionnement normal."
+"Mesure : le nombre ou la catégorie
+affectée à un attribut d’une entité à la suite d’une action de mesure."
+Réalisation d’une mesure : le processus d’attribution d’une mesure chiffrée ou d’une catégorie à une entité pour décrire un attribut de cette entité.
+"Fuite mémoire : une défaillance d'accès à la mémoire causée par un défaut dans la logique d’allocation dynamique de
+l'espace de stockage d’un programme. Cette défaillance fait que le programme ne libère pas la mémoire quand il a fini de
+l’utiliser, causant au bout du compte la défaillance de ce programme et/ou
+d'autres processus concurrents par manque de mémoire."
+"Métrique : une échelle de mesure et la
+méthode utilisée pour la mesure."
+Jalon : moment particulier dans un projet auquel des livrables définis (intermédiaires ou non) et des résultats doivent être prêts.
+Test basé sur les modèles : Tests basés sur ou impliquant des modèles.
+"Modérateur : Une personne neutre qui effectue une session de test d'utilisabilité.
+Voir aussi : facilitateur
+Synonyme : leader de l'inspection"
+"Outil de monitoring : Outil logiciel ou dispositif matériel qui est utilisé en même temps que le composant ou le système testé et qui supervise, enregistre et/ou analyse le comportement du composant ou du système testé.
+Voir aussi : Outil d'analyse dynamique"
+"Exigence non-fonctionnelle : Exigence qui décrit comment le composant ou le système réalisera ce qu'il est censé faire."
+"Tests non-fonctionnels : Test effectué
+pour évaluer la conformité d'un composant ou d'un système avec les exigences non fonctionnelles."
+"Tests d’acceptation opérationnelle : test opérationnel en phase de test d'acceptation, généralement effectué dans un environnement opérationnel (simulé) par l' exploitation et/ou le personnel de l'administration des systèmes en se concentrant sur les aspects opérationnels, par exemple la reprise (après incident), le comportement des ressources, la facilité d’installation et la conformité technique.
+Voir aussi : Test opérationnel Synonyme : tests d’acceptation de production"
+"Environnement opérationnel : produits matériels et logiciels installés sur un site utilisateur ou client où le composant, ou système, à tester sera utilisé.  Le logiciel peut inclure systèmes d’exploitation, des
+gestionnaires de bases de données et d’autres applications."
+"Sortie : Données transmises par un composant ou un système à une destination externe."
+"Réussite : un test est considéré comme
+réussi si les résultats effectifs correspondent aux résultats attendus."
+"Chemin : séquence d’événements, p.ex instructions exécutables, d’un composant ou système d’un point d’entrée jusqu’à un point de sortie.
+Synonyme : Chemin de flot de contrôle"
+"Revue de pairs : Une forme de revue des produits d’activités effectuée par d'autres personnes qualifiées pour effectuer le même travail."
+"Performance : La mesure selon laquelle une composante ou un système utilise le temps, les ressources et la capacité dans l'accomplissement de ses fonctions assignées.
+Synonymes : Comportement dans le temps, Efficience de la performance."
+"Indicateur de performance : un métrique de haut niveau de rentabilité et/ou d’efficacité utilisé pour guider et contrôler le développement progressif, p. ex., le glissement du temps de développement logiciel.
+Synonyme : Indicateur clé de performance"
+"Test de performance : Tests pour déterminer la performance d'un produit logiciel.
+Voir aussi : Test de rendement"
+"Outil de tests de performances  : Outil de test qui génère une charge pour un élément de test désigné et qui mesure et
+enregistre sa performance pendant l'exécution du test."
+"Lecture basée sur la perspective : Technique de revue par laquelle les réviseurs évaluent le produit du travail à partir de différents points de vue.
+Synonyme : revue basée sur la perspective"
+"Planning Poker : Une technique d'estimation basée sur le consensus, utilisée la plupart du temps pour estimer l'effort ou la taille relative des User Stories en développement logiciel Agile. C'est une variation de la méthode Wideband Delphi utilisant un jeu de cartes avec des valeurs représentant les estimations de charges de l'équipe.
+Voir aussi : Développement logiciel Agile, Wideband Delphi"
+"Portabilité : facilité avec laquelle un produit logiciel peut être transféré d’un environnement matériel ou logiciel vers un autre."
+"Test de portabilité : Tests pour déterminer la portabilité d'un produit logiciel.
+Synonyme : Test de configuration"
+"Postcondition : L'état attendu d'un élément de test et de son environnement à la fin de l'exécution d'un cas de test."
+"Précondition : L'état requis d'un élément de test et de son environnement avant l'exécution d'un cas de test."
+"Priorité : un niveau d’importance (métier) affecté à un élément (p.ex. à un défaut)."
+"Effet de sonde : L'effet sur le composant ou le système de l'instrument de mesure lorsque le composant ou le système est mesuré, p. ex. par un outil de test de performance ou un moniteur. Par exemple, les performances peuvent être
+légèrement inférieures lorsque des outils de test de performance sont utilisés."
+"Problème : Une cause sous-jacente inconnue d'un ou de plusieurs incidents."
+"Processus : ensemble d’activités liées qui transforment des entrées en sorties."
+"Amélioration de processus : Un programme d’activités conçues pour améliorer la performance et la maturité
+des processus de l’organisation, et le résultat d’un tel programme."
+"Risque produit : Un risque directement lié à l’objet de test.
+Voir aussi : Risque"
+"Projet : un projet est un ensemble unique
+d’activités, contrôlées et coordonnées, avec des dates de début et de fin, effectuées avec pour objectif de conformité à des exigences spécifiques,
+incluant des contraintes de temps, de coût et de ressources."
+"Risque projet : Un risque qui a une
+incidence sur la réussite du projet.
+Voir aussi : Risque"
+"Qualité : degré par lequel un composant, système ou processus atteint des
+exigences spécifiées et/ou des besoins ou attentes des clients ou utilisateurs."
+Assurance qualité : partie de la gestion de la qualité visant à fournir l’assurance que les exigences qualité seront atteintes.
+"Caractéristique de qualité : Catégorie d'attributs d'un produit qui a une incidence sur la qualité.
+Synonymes : caractéristique de qualité, caractéristique du produit logiciel, caractéristique de qualité du logiciel, attribut qualité."
+Contrôle qualité: Les activités et les techniques opérationnelles de la gestion de la qualité axées sur l'atteinte des exigences qualité.
+"Gestion de la qualité : activités coordonnées pour diriger et contrôler une organisation en ce qui concerne la qualité. La direction et le contrôle de la qualité inclus généralement la mise en place de recommandations et d’objectifs qualité, de la planification qualité, du contrôle qualité,
+de l’assurance qualité et de l’amélioration qualité."
+"Risque qualité : Un risque Produit lié à une caractéristique de qualité.
+Voir aussi : Caractéristique de qualité, Risque produit."
+"Rational Unified Process (RUP): Un cadre propriétaire et adaptable décrivant le processus itératif de développement d'un logiciel. Le processus comprend quatre phases du cycle de vie du projet:
+création, élaboration, construction et transition."
+Régression : Dégradation de la qualité d'un composant ou d'un système en raison d'un changement.
+"Test de régression : tests d’un programme préalablement testé, après une modification, pour s’assurer que des défauts n’ont pas été introduits ou découverts dans des parties non
+modifiées du logiciel, comme suites des modifications effectuées."
+"Test d'acceptation réglementaire : Tests d'acceptation effectués pour vérifier si un système est conforme aux lois, politiques et règlements applicables."
+"Fiabilité : La mesure selon laquelle un composant ou un système exécute des fonctions spécifiées dans des conditions spécifiées pendant une période de temps
+spécifiée."
+"Modèle de croissance de fiabilité : Un modèle montrant l’augmentation de la fiabilité dans le temps lors d’un test
+continu d’un composant ou système, suite à la suppression de défauts qui
+provoquaient des défaillances de fiabilité."
+Exigence : Une stipulation qui énonce des critères à satisfaire.
+"Outil de gestion des exigences : un outil
+qui supporte la consignation des exigences, des attributs des exigences (p.ex. priorité, connaissance responsable) et des annotations, et facilite la traçabilité au travers des couches d’exigences et de la gestion des modifications des exigences.  Quelques outils de gestion des exigences fournissent aussi des facilités pour l’analyse statique, tel que la vérification de cohérence et la violation de règles pré-définies de spécification des
+exigences"
+"Résultat : les conséquences / résultats de
+l’exécution d’un test.  Cela inclut les sorties vers des écrans, les modifications de données, rapports et messages d’information envoyés.
+Voir aussi : Résultat effectif, Résultat attendu
+Synonyme : Résultat du test"
+"Réunion rétrospective : Une réunion à la fin d’un projet durant laquelle les membres d’une équipe de projet évaluent le projet et tirent des leçons qui peuvent être appliquées au projet suivant.
+Synonyme : réunion post-projet"
+"Revue : Type de tests statiques au cours desquels un produit d’activités ou un processus de travail est évalué par une ou plusieurs personnes afin de détecter les
+problèmes et d'apporter des améliorations."
+"Plan de revue : Un document décrivant l'approche, les ressources et le calendrier des activités de la revue envisagée. Il identifie, entre autres, les documents et le code devant être revus, aussi bien que les critères d'entrée et de sortie à appliquer en cas de revue formelle et la logique ayant motivé leur choix. C'est un rapport du processus de planification de revue."
+"Réviseur : Un participant à une revue, qui identifie les problèmes dans le produit du travail.
+Synonymes : Vérificateur, Inspecteur"
+Risque : Un facteur qui pourrait avoir des conséquences négatives à l'avenir.
+Analyse de risque : Le processus général d'identification et d'évaluation des risques.
+"Niveau de risque : Mesure qualitative ou quantitative d'un risque défini par l'impact et la probabilité.
+Synonyme : Exposition au risque"
+Gestion des risques : Les activités coordonnées pour piloter et contrôler une organisation en matière de risque.
+"Réduction des risques : Le processus par lequel les décisions sont prises et les mesures de protection sont mises en œuvre pour réduire ou maintenir les risques à des niveaux spécifiés.
+Synonyme : Contrôle des risques"
+"Type de risque : Ensemble de risques
+regroupés par un ou plusieurs facteurs communs.
+Synonymes : Catégorie de risque"
+"Test basé sur les risques : Tests pour
+lesquels la gestion, la sélection, la priorisation et l'utilisation des activités et des ressources de test sont basées sur
+les types de risque et les niveaux de risque correspondants."
+"Robustesse : le degré pour lequel un composant ou système peut fonctionner correctement en présence de données d’entrée invalides ou de conditions environnementales stressantes.
+Voir aussi : Tolérance aux fautes, Tolérance aux pannes."
+"Revue basée sur les rôles : Technique
+de revue où les réviseurs évaluent un produit d’activités du point de vue des différents rôles des intervenants."
+"Cause racine : Une source de défaut telle que si elle est retirée, l’apparition de ce type de défaut est diminuée ou supprimée."
+"Analyse des causes racines : Une
+technique d’analyse au but d’identifier les causes premières de défauts. En dirigeant les mesures correctives sur les causes premières, on espère que la probabilité de réapparition des défauts soit minimisée.
+Synonyme : Analyse causale"
+"Sûreté : La capacité qu'un système ne pourra pas, dans des conditions définies, conduire à un état dans lequel la vie humaine, la santé, la sécurité des
+personnes et des biens ou l'environnement est en danger."
+Revue basée sur des scénarios : Technique de revue où la revue est  guidée par la capacité du produit du travail à réaliser des scénarios spécifiques.
+"Scribe : Une personne qui consigne l'information pendant les réunions de revue.
+Synonyme : Greffier"
+"Scrum : un cadre progressif et itératif pour gérer des projets. Généralement utilisé dans le développement logiciel agile.
+Voir aussi : Développement logiciel Agile"
+"Sécurité : La mesure selon laquelle une composante ou un système protège l'information et les données afin que les personnes ou d'autres composantes ou
+systèmes aient le degré d'accès approprié à leurs types et niveaux d'autorisation."
+"Test de sécurité : tests effectués pour déterminer la sécurité d’un produit logiciel.
+Voir aussi : Test des fonctionnalités"
+"Modèle de développement séquentiel :
+Un type de modèle de cycle de vie de développement selon lequel un système achevé est développé de manière linéaire en plusieurs phases distinctes et successives, sans chevauchement entre
+elles."
+"Test basé sur des sessions : une
+approche du test dans laquelle des activités de test sont planifiées comme les sessions ininterrompues de conception de tests et d'exécution. Elle est souvent utilisée en conjonction avec le test
+exploratoire."
+"Sévérité : degré qu’à l’impact d’une
+anomalie sur le développement ou
+l’utilisation d’un composant ou système."
+"Simulation : représentation d’une sélection de caractéristiques de
+comportement d’un système physique ou abstrait par un autre système."
+"Simulateur : un appareil, programme ou système utilisé pendant les tests, qui se comporte ou fonctionne comme un système donné à la réception d’entrées.
+Voir aussi : Emulateur"
+"Logiciel : Programmes informatiques, procédures et, éventuellement, documentation et données connexes se rapportant au fonctionnement d'un
+système informatique."
+"Cycle de vie du développement logiciel
+: Les activités réalisées à chaque étape du développement d'un logiciel et la façon
+dont elles sont reliées logiquement et chronologiquement."
+"Cycle de vie logiciel : Une période temporelle qui commence lorsqu’un produit logiciel est conçu et se termine lorsque le logiciel n’est plus disponible à l’usage. Le cycle de vie logiciel inclut typiquement une phase de mûrissement, une phase d’exigences, une phase de conception, une phase d’implémentation, une phase de test, une phase
+d’installation et livraison, une phase d’opération et de maintenance, et parfois une phase de retrait. Note : ces phases
+peuvent se recouper ou être exécutées de façon itérative."
+"Qualité logicielle : La totalité des fonctionnalités et caractéristiques d’un
+produit logiciel qui influent sur sa capacité à satisfaire des besoins déclarés ou implicites.
+Voir aussi : Qualité"
+"Spécification : Un document qui spécifie, idéalement de façon complète, précise et vérifiable, les exigences, conceptions, comportements et autres caractéristiques d’un composant ou système, et souvent,
+les procédures pour déterminer si ces stipulations ont été satisfaites."
+"Stabilité : La mesure selon laquelle un composant ou un système peut être modifié de manière efficace et efficiente
+sans introduire de défauts ou dégrader la qualité d'un produit existant."
+"Norme : Ensemble d'exigences formelles et certaines fois obligatoires. Cet ensemble est développé et utilisé afin de préconiser des approches à la façon de travail ou pour fournir des directives (par
+exemple, les normes ISO/IEC, IEEE et les normes organisationnelles)."
+"Diagramme d’États : Un diagramme qui décrit les états que peut avoir un composant ou système, et qui montre les événements ou circonstances qui causent et/ou résultent en un changement d’un état à un autre.
+Synonyme : Diagramme états-transitions"
+Transition d’état : Une transition entre deux états d’un composant ou système.
+"Test des transitions d’état : Une technique de test de boîte-noire utilisant un diagramme états-transitions ou une table d'état pour dériver des cas de test afin d'évaluer si l'élément de test exécute avec succès des transitions valides et bloque les transitions invalides.
+Voir aussi : Test N-switch
+Synonyme : Test de machines à états finis"
+"Instruction : une entité dans un langage de programmation, qui est typiquement la plus petite unité indivisible d’exécution.
+Synonyme : Instruction dans le code source"
+Couverture des instructions : le pourcentage des instructions exécutables qui ont été exécutées par une suite de tests.
+Tests des instructions : une technique de conception de tests boîte-blanche dans laquelle les cas de tests sont conçus pour exécuter des instructions.
+"Analyse statique : Processus d'évaluation d'un composant ou d'un système sans l'exécuter, en fonction de sa
+forme, de sa structure, de son contenu ou de sa documentation."
+Tests statiques : Tester un produit d’activités sans que le code soit exécuté.
+"Couverture structurelle : mesure de
+couverture basée sur la structure interne du composant."
+"Bouchon : une implémentation spéciale ou squelettique d’un composant logiciel, utilisé pour développer ou tester un composant qui l’appelle ou en est
+dépendant.  Cela remplace un composant appelé."
+"Système : Ensemble d'éléments en interaction organisés pour accomplir une fonction ou un ensemble de fonctions spécifiques."
+"Tests d’intégration système : Tester la combinaison et l'interaction des systèmes."
+"Tests système : Tester un système intégré pour vérifier qu'il répond aux exigences spécifiées."
+"Système sous test : Un type d'objet de test qui est un système."
+"Revue technique : Type d'examen officiel effectué par une équipe de personnel qualifié sur le plan technique qui examine l'adéquation d'un produit d’activités à l'usage pour l'usage auquel il est destiné et identifie les divergences par rapport aux
+spécifications et aux normes."
+"Test :  un ensemble d’un ou plusieurs cas
+de tests."
+"Analyse de test : L'activité qui identifie les conditions de test en analysant les bases de test."
+"Approche du test : l’implémentation de la stratégie de test pour un projet spécifique."
+"Automatisation des tests : utilisation de logiciels pour exécuter ou supporter des activités de tests, p.ex. gestion des tests,
+conception des tests, exécution des tests ou vérification des résultats."
+"Base de test : L'ensemble des connaissances utilisées comme base pour l'analyse et la conception des tests."
+"Cas de test : Un ensemble de conditions préalables, de données d'entrée, d'actions (le cas échéant), de résultats attendus et
+de postconditions, élaboré sur la base des conditions de test."
+"Spécification de cas de test : Documentation d'un ensemble constitué d'un ou plusieurs cas de test.
+Voir aussi : Spécification de test"
+"Charte de test : Documentation des activités de test dans le cadre de tests exploratoires basés sur des sessions.
+Voir aussi : Tests exploratoires Synonyme : Charte"
+"Clôture des tests : L'activité qui rend les actifs de test disponibles pour une utilisation ultérieure, laisse les
+environnements de test dans un état satisfaisant et communique les résultats
+des tests aux parties prenantes concernées."
+"Condition de test : Un aspect des bases de test qui est pertinent pour atteindre des objectifs de test spécifiques."
+"Synonymes : exigence de test, situation de test"
+"Contrôle des tests : Une tâche de gestion des tests qui traite du développement et de l’application d’un ensemble d’actions correctives pour remettre un projet de test sur les rails quand les métriques de suivi indiquent une déviation par rapport à ce qui a été prévu.
+Voir aussi : Gestion des tests"
+"Cycle de test : Exécution du processus de test sur une version unique et identifiable d’un objet de test."
+"Données de test : Données créées ou sélectionnées pour satisfaire les préconditions d'exécution et les entrées pour exécuter un ou plusieurs cas de test."
+"Outil de préparation des données de
+"tests : Type d’outil permettant, à partir de bases de données existantes, de sélectionner, créer, générer, manipuler et éditer des données pour utilisation pendant des tests.
+Synonymes : générateur de test"
+"Conception des tests : Activité consistant à dériver et à spécifier des cas de test à partir des conditions de test.
+Voir aussi : Spécification de la conception des tests"
+"Outil de conception de tests : Outil qui
+de support à l’activité de conception de
+test en générant les valeurs d’entrées des test à partir de spécifications qui peuvent être présentes dans un répertoire d’outil CASE, (ex. : outil de gestion des
+exigences) ou de conditions spécifiques de tests contenues dans l’outil lui-même."
+"Environnement de test : Environnement contenant le matériel, les instruments, les simulateurs, les outils logiciels et les autres éléments de support nécessaires à l’exécution d’un test.
+Synonyme : Banc de test"
+"Estimation des tests : Approximation calculée d’un résultat lié à divers aspects du test (ex. : effort accompli, date d’achèvement, coûts induits, nombre de cas de test, etc.) qui est utilisable malgré
+des données d’entrée incomplètes, incertaines ou altérées."
+"Exécution des tests : Processus consistant à exécuter un test sur un composant ou système en test, en produisant le(s) résultat(s) obtenu(s)s."
+"Calendrier d'exécution des tests : Un
+ordonnancement de l'exécution des suites de tests au sein d'un cycle de test."
+"Outil d'exécution des tests : Un outil de test qui exécute des tests par rapport à un élément de test donné et évalue les
+résultats par rapport aux résultats attendus et aux postconditions."
+"Harnais de test : Environnement comprenant les bouchons et les pilotes nécessaires pour exécuter un test."
+"Implémentation des tests : L'activité qui prépare le testware nécessaire à l'exécution des tests sur la base de l'analyse et de la conception des tests."
+"Infrastructure de test : Ressources organisationnelles nécessaires pour réaliser des tests telles que les environnements de test, les outils de test, les procédures et un environnement
+bureautique."
+"Entrées de test :  Données reçues d’une source externe par l’objet de test pendant son exécution. Les sources externes peuvent être matérielles, logicielles ou humaines."
+"Article de test : Une partie d'un objet de test utilisé dans le processus de test.
+Voir aussi : Objet de test"
+"Test Leader : Dans le contexte de grands projets, la personne qui relève du Test Manager et qui est responsable de la gestion de projet d'un niveau de test particulier ou d'un ensemble particulier d'activités de test.
+Voir aussi : Test Manager Synonyme : Test Lead"
+"Niveau de test : Une instanciation spécifique d'un processus de test.
+Synonymes : Phase de test"
+"Gestion des tests : La planification,
+l'ordonnancement, l'estimation, la suivi, la production de rapports, le contrôle et la clôture des activités de test."
+"Outil de gestion des tests : Outil d’assistance à la gestion des tests et de contrôle partiel du processus de test. Il offre souvent de nombreuses fonctionnalités telles que la gestion du testware, la planification des tests, la traçabilité des résultats, le suivi
+d’avancement, la gestion des incidents et le Reporting."
+"Test Manager : Personne responsable de la gestion de projet des activités et des ressources de test et de l'évaluation d'un objet de test. La personne qui dirige,
+contrôle, gère l’organisation et règle l’évaluation d’un objet de test."
+"Pilotage des tests : Une activité de gestion des tests qui comprend la vérification de l'état des activités de test, l'identification de tout écart par rapport à l'état planifié ou attendu, et le reporting aux parties prenantes.
+Voir aussi : Gestion des tests"
+"Objet de test : Composant ou système à tester.
+Voir aussi : Article de test"
+"Objectif de test : une raison ou but de la conception et l’exécution d’un test."
+"Oracle de test : Source utilisée pour déterminer les résultats attendus à comparer avec les résultats obtenus de l’application en cours de test."
+"Plan de test : Documentation décrivant les objectifs de test à atteindre et les moyens et le calendrier pour les atteindre, organisée pour coordonner les activités de
+test."
+"Planification de test : Activité de définition  ou de mise à jour d’un plan de test."
+"Politique de test : Document de haut niveau décrivant les principes, approches et objectifs majeurs de l’organisation concernant l’activité de test.
+Synonyme : politique de test organisationnelle"
+"Procédure de test : Une séquence de cas de test dans l'ordre d'exécution, et toutes les actions associées qui peuvent être nécessaires pour mettre en place les préconditions initiales et toutes les activités de bouclage après l'exécution.
+Voir aussi : Script de test"
+"Processus de test : Ensemble d'activités interdépendantes comprenant la planification des tests, le suivi et le contrôle des tests, l'analyse de test, la conception des tests, l’implémentation des
+tests, l'exécution des tests et la clôture des tests."
+"Amélioration du processus de test : Programme d'activités visant à améliorer le rendement et la maturité des processus de test de l'organisation et les résultats
+d'un tel programme."
+"Rapport d’avancement de test : Un rapport de test produit à intervalles réguliers sur l'état d'avancement des activités de test par rapport à une base de référence, aux risques et aux solutions alternatives nécessitant une décision.
+Synonyme : Rapport sur le statut des tests"
+"Rapport de test : Documentation résumant les activités et les résultats des tests."
+"Reporting de test : Collecte et analyse des données provenant des activités de test, puis consolidation des données dans un rapport pour informer les parties prenantes.
+Voir aussi : Processus de test"
+"Planning de test : Liste d’activités, de
+tâches ou d’évènements du processus de test mentionnant leurs dates et/ou heures de début et fin et interdépendances."
+"Script de test : Une séquence d'instructions pour l'exécution d'un test.
+Voir aussi : Procédure de test"
+"Session de test : Laps de temps continu passé à exécuter des tests. En test exploratoire, chaque session de test se focalise sur une charte, mais les testeurs peuvent aussi explorer de nouvelles opportunités ou problèmes durant une session. Le testeur crée et exécute des cas de test à la volée et enregistre leurs évolutions.
+Voir aussi : Test exploratoire"
+"Stratégie de test : Documentation qui exprime les exigences génériques pour tester dans le cadre d'un ou de plusieurs projets exécutés au sein d'une organisation, fournissant des détails sur la façon dont les tests doivent être effectués, et qui est alignée sur la politique de test.
+Synonyme : Stratégie de test organisationnel"
+"Suite de tests : Ensemble de cas de test ou de procédures de test à exécuter dans un cycle de test spécifique.
+Synonymes : Suite de cas de test, Ensemble de tests"
+"Rapport de synthèse de test : Un rapport de test qui fournit une évaluation des éléments de test en comparaison avec les critères de sortie.
+Synonyme : rapport de test"
+"Technique de test : Procédure utilisée pour dériver et/ou sélectionner les cas de test.
+Synonymes : technique de conception de cas de test, technique de spécification de test, technique de conception de test"
+"Outil de test : Produit logiciel qui  supporte une ou plusieurs activités de  test, telles que la planification, le contrôle, la spécification, la conception des fichiers et données initiaux, l’exécution et l’analyse des tests.
+Voir aussi : CAST"
+"Type de test : Groupe d'activités de test basées sur des objectifs de test spécifiques visant des caractéristiques spécifiques d'un composant ou d'un système."
+"Testabilité : Le degré d'efficacité et d'efficience avec lequel les tests peuvent être conçus et exécutés pour un composant ou un système."
+"Exigence testable : Exigence exprimée en des termes permettant le démarrage de la conception des tests (et ultérieurement des cas de test) et
+l'exécution des tests pour déterminer si l'exigence a été satisfaite."
+"Testeur : Un professionnel qualifié qui participe aux tests d'un composant ou d'un système."
+"Test : Processus consistant en toutes les activités du cycle de vie, statiques et dynamiques, concernant la planification et l’évaluation de produits logiciels et
+produits liés pour déterminer s’ils satisfont aux exigences et démontrer qu’ils sont conformes aux objectifs et détecter des
+anomalies."
+"Testware : Produits d’activités réalisés au cours du processus de test pour la planification, la conception, l'exécution,
+l'évaluation et l'établissement de rapports sur les tests."
+"Traçabilité : La mesure dans laquelle une relation peut être établie entre deux ou plusieurs produits d’activités.
+Voir aussi : Traçabilité horizontale, Traçabilité verticale"
+"Intelligibilité : Capacité d’un produit logiciel de permettre à l’utilisateur de comprendre si le logiciel est approprié, et comment il peut être utilisé pour des tâches particulières et des conditions d’utilisation.
+Voir aussi : Utilisabilité"
+"Framework de test unitaire : Outil
+fournissant un environnement pour tests unitaires ou de composant dans lequel un composant peut être testé de façon isolée ou avec des bouchons ou pilotes appropriés. Il fournit aussi une aide au développeur, telle que des fonctionnalités
+de débogage."
+"Code inatteignable : Code qui ne peut être atteint et est de ce fait impossible à exécuter.
+Synonyme : Code mort"
+"Utilisabilité : La mesure selon laquelle un composant ou un système peut être utilisé par des utilisateurs spécifiques pour atteindre des objectifs spécifiques dans un contexte d'utilisation spécifique."
+"Test d’utilisabilité : Tests visant à évaluer dans quelle mesure le système peut être utilisé par des utilisateurs spécifiques avec efficacité, efficience et
+satisfaction dans un contexte d'utilisation spécifié."
+"Cas d’utilisation : Séquence de transactions dans un dialogue entre un acteur et un composant ou un système avec un résultat concret. L'acteur peut être un utilisateur ou tout ce qui peut
+échanger des informations avec le système."
+"Test de cas d’utilisation : Technique de test boîte noire selon laquelle les cas de tests sont conçus pour exécuter des scénarios de cas d’utilisation.
+Synonymes : tests de scénarios, tests de scénarios utilisateurs"
+"Tests d'acceptation utilisateur : Tests d'acceptation effectués dans un environnement opérationnel réel ou simulé par les utilisateurs prévus en mettant l'accent sur leurs besoins, leurs exigences et leurs processus métier.
+Voir aussi : Tests d'acceptation"
+"Interface utilisateur : Tous les composants d'un système qui fournissent des informations et des contrôles permettant à l'utilisateur d'accomplir des
+tâches spécifiques avec le système."
+"User Story : Une exigence d'utilisateur ou métier de haut niveau communément utilisée dans le développement de logiciels Agile, qui consiste généralement en une phrase dans le langage courant ou le langage métier capturant la fonctionnalité dont un utilisateur a besoin et la raison de ce besoin, les critères non fonctionnels, ainsi que les critères d'acceptation.
+Voir aussi : Développement de logiciels Agile, Exigence"
+"Modèle en V : Un modèle de cycle de vie séquentiel du développement décrivant une relation un pour un entre les principales phases du développement
+logiciel, de la spécification des exigences métier jusqu'à la livraison.
+et les niveaux de test correspondants, depuis les tests d'acceptation jusqu'aux
+tests de composants."
+"Validation : Confirmation par l’examen et la fourniture de preuves objectives que les exigences, pour un usage ou une application voulue, ont été satisfaites."
+"Variable : Elément de stockage dans un ordinateur qui est accessible par un programme logiciel en se référant à son nom."
+"Vérification : Confirmation par l’examen et la fourniture de preuves objectives que des exigences spécifiées ont été satisfaites."
+"Relecture technique : Type de revue dans laquelle un auteur conduit la revue en parcourant avec les participants un produit d’activités. Les participants posent des questions et font des commentaires sur des problèmes possibles.
+Synonymes : Relecture technique Structurée"
+"Technique de test boîte-blanche : Procédure permettant de dériver et/ou de sélectionner des cas de test sur la base d'une analyse de la structure interne d'un composant ou d'un système.
+Synonymes : technique de test structurel, technique de test basé sur la structure,
+technique basée sur la structure, technique boîte-blanche"
+"Test boîte-blanche : Test basé sur une analyse de la structure interne du composant ou système.
+Synonymes : Test de boîtes transparentes, Test basé sur le code, Test de boîtes de verre, Test de couverture logique, Test dirigé par la couverture logique, Test structurel, Test basé sur la
+structure."
+"Wideband Delphi : Technique d’estimation de test basée sur des experts ayant pour objectif de fournir une estimation correcte en utilisant la connaissance collective des membres de l’équipe."
